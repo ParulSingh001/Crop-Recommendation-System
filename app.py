@@ -5,7 +5,9 @@ import sklearn
 import joblib
 import pickle
 
+
 # importing model
+
 model = joblib.load(open('model.pkl','rb'))
 sc = joblib.load(open('standscaler.pkl','rb'))
 ms = joblib.load(open('minmaxscaler.pkl','rb'))
